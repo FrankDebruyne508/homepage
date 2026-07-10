@@ -1,6 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Avatar place">
+  <!-- 背景矩形 -->
   <rect width="240" height="240" rx="120" fill="#f3eee7"/>
-  <circle cx="120" cy="92" r="42" fill="#c2714f"/>
+  
+  <!-- ✨ 核心修改：在这里插入你的照片 -->
+  <!-- 请将下面 xlink:href="" 引号内的内容替换为你照片的网络链接 -->
+  <clipPath id="avatar-shape">
+    <circle cx="120" cy="92" r="42"/>
+  </clipPath>
+  <image xlink:href="【金山文档 | WPS云文档】 my_photo@1x
+https://www.kdocs.cn/l/cbBgT8AvpW7W" x="78" y="50" width="84" height="84" clip-path="url(#avatar-shape)" />
+  
+  <!-- 保留原来的装饰性图形 (下巴和名字) -->
   <path d="M52 206c10-39 39-60 68-60s58 21 68 60" fill="#d8b29f"/>
   <text x="120" y="226" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#7d6658">my photo</text>
 </svg>
