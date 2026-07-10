@@ -2,7 +2,7 @@
   <!-- 圆形蒙版，做成圆形头像 -->
   <clipPath id="circleCut">
     <circle cx="120" cy="120" r="120"/>
-  <https://github.com/FrankDebruyne508/homepage/blob/main/assets/img/my_photo.jpg>
+  <assets/img/my_photo.jpg>
   <!-- 加载你上传好的照片，路径不用改，直接用 -->
   <image width="240" height="240" clip-path="url(#circleCut)" href="assets/img/my_photo.jpg" preserveAspectRatio="xMidYMid slice"/>
 </svg>
