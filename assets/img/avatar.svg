@@ -1,3 +1,6 @@
-https://dt.mockplus.cn/800a7632-3b19-4573-b590-fa540b3c2ba3
-  <text x="120" y="226" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#7d6658">my photo</text>
-
+svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Avatar place">
+  <clipPath id="circleCut">
+    <circle cx="120" cy="120" r="120"/>
+  </clipPath>
+  <image width="240" height="240" clip-path="url(#circleCut)" href="my_photo.jpg" preserveAspectRatio="xMidYMid slice"/>
+</svg>
